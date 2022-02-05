@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\15-Mapping-Web\\.vscode"
+		},
+		{
+			"path": "..\\..\\..\\..\\15-Mapping-Web\\Instructions"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Instructions",
+		"javascript-repl.rootPathOnMultiRootWorkspace": "/C:/Users/vicky/OneDrive/Documents/smu-dal-data-pt-09-2021-u-c-1/02-Homework/15-Mapping-Web/.vscode"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": ".NET Core Attach",
+				"type": "coreclr",
+				"request": "attach"
+			},
+			{
+				"name": "PowerShell: Launch Current File",
+				"type": "PowerShell",
+				"request": "launch",
+				"script": "${file}",
+				"cwd": "${file}"
+			}
+		]
+	}
+}
